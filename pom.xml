@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Wikipedia</artifactId>
+	<artifactId>WikiDiscort</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Wikipedia</name>
-	<description>Wikipedia</description>
+	<name>WikiDiscort</name>
+	<description>WikiDiscort</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -120,6 +120,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.example.wikipedia.WikipediaApplication</mainClass> <!-- Use the correct main class -->
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
